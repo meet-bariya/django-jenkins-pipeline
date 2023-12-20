@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent { label 'alabasta' }
 
     stages{
         stage('virtual env setup'){
