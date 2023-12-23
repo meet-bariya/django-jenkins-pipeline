@@ -20,3 +20,5 @@ else
 fi
 
 chmod -R 777 logs
+
+echo "Environment setup finished"
